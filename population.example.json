@@ -1,0 +1,7 @@
+[
+  {"id": "CHANGE-001", "stratum": "emergency", "system": "payments"},
+  {"id": "CHANGE-002", "stratum": "emergency", "system": "identity"},
+  {"id": "CHANGE-003", "stratum": "standard", "system": "payments"},
+  {"id": "CHANGE-004", "stratum": "standard", "system": "identity"},
+  {"id": "CHANGE-005", "stratum": "standard", "system": "reporting"}
+]

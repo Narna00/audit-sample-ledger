@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audit-sample-ledger"
+version = "0.1.0"
+description = "Produce repeatable stratified audit selections and a population fingerprint."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+audit-sample = "audit_sample:main"
+
+[tool.setuptools]
+py-modules = ["audit_sample"]
